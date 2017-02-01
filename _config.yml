@@ -1,1 +1,6 @@
 theme: jekyll-theme-midnight
+gems:
+   - jekyll-pagination
+   
+paginate: 10
+paginate_file: index.html
