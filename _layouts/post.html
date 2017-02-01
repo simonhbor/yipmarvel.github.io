@@ -9,8 +9,11 @@
         <h1>{{ page.title }}</h1>
         <p>{{ page.date }}</p>
         <hr>
-        <span class="credits left">by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-        <span class="credits right">Hosted on GitHub Pages</span>
+        <span class="credits left">
+          <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+          <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+        </span>
+        <span class="credits right category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span>
       </section>
       <article>
         {{ content }}
