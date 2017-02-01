@@ -5,19 +5,16 @@
     {% include header.html %}
 
     <div class="wrapper">
-      <section>
-        <div id="title">
-          <h1>{{ post.title }}</h1>
-          <p>{{ post.date }}</p>
-          <hr>
-          <span class="credits left">by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages</span>
-        </div>
-
-        {{ content }}
-
+      <section id="title">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date }}</p>
+        <hr>
+        <span class="credits left">by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+        <span class="credits right">Hosted on GitHub Pages</span>
       </section>
-
+      <article>
+        {{ content }}
+      </article>
     </div>
 
     {% include googleAnalytics.html %}
