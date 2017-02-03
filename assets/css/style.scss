@@ -10,6 +10,14 @@
 .post-list-item {
   list-style: none
 }
-.post-list-item a {
-  font-size: 2rem;
+.post-list-item_title {
+  font-size: 1.5rem;
+}
+.post-list-item_date,
+.post-list-item_excerpt {
+  padding: 0;
+  margin: 0;
+}
+.post-list-item_date {
+  opacity: .6;
 }
