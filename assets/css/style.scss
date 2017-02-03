@@ -2,3 +2,14 @@
 ---
 
 @import "{{ site.theme}}";
+
+.post-list {
+  padding: 1rem 0 3rem 0;
+}
+
+.post-list-item {
+  list-style: none
+}
+.post-list-item a {
+  font-size: 2rem;
+}
