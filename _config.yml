@@ -4,6 +4,7 @@ description: Code, random thoughts, and more
 theme: jekyll-theme-minimal
 gems:
    - jekyll-pagination
+   - jemoji
    
 paginate: 10
 paginate_file: index.html
