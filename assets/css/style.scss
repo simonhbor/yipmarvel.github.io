@@ -7,11 +7,21 @@ body {
   font-family: Cardo, Georgia, serif;
   background-color: #f9f9f9;
   color: #666;
-  font-size: 16px;
+  font-size: 18px;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,
+.post-list-item_title {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #888;
 }
+h1 { font-size: 3rem }
+h2 { font-size: 2.25rem }
+h3 { font-size: 1.75rem }
+h4 { font-size: 1.125rem }
+h5 { font-size: 1rem }
+h6 { font-size: .0875rem }
+
+blockquote { font-size: 1.5rem }
 
 .post-list {
   padding: 1rem 0 3rem 0;
@@ -21,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
   list-style: none
 }
 .post-list-item_title {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .post-list-item_date,
 .post-list-item_excerpt {
