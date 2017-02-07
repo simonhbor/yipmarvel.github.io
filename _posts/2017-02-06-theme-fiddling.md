@@ -19,3 +19,4 @@ Still, fiddling about with getting the combo of my includes, `{{content}}`, and 
 - change out the emoji icons I am using
 - maybe make something cool in css to be some sort of icon for the site (CSS only would be great to keep it super lean)
 - if possible have zero javascript in the final rendered site (no good reason for this other than a mild challenge). This would of cousre make a switchable theme impossible :smile:
+- oh, and finally - make some kind of about page - maybe with links to anything interesting I do on github, that I can show off at work, or that I throw up on codepen
