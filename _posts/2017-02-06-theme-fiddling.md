@@ -3,7 +3,7 @@ layout: post
 category: blogging
 tags: [jekyll, code]
 ---
-I've been produtive-lazy tonight and messed about themeing this blog on the laptop. It's like messing about on the river only less connected to nature, less relaxing, less likely to have songs written about, but safer to do in the dark.
+I've been produtive-lazy tonight and messed about themeing this blog on the laptop. It's like messing about on the river only less connected to nature, less relaxing, less likely to have songs written about it, but safer to do in the dark.
 
 In case you are wondering, productive-lazy is a definite thing, that I think I just made up. It's sorta like busy work, but less busy, and with more tangible (and useful, goddammit) outputs.
 
