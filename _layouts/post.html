@@ -6,14 +6,13 @@
       {% include header.html %}
 
       <section>
-        <div class="title">
-          <h1>{{ page.title }}</h1>
-          <hr>
-          <span class="credits left">
-          <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-          <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
-          </span>
-          <span class="credits right category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span>
+        <div class="title-block">
+          <h1 class="title-block_title">{{ page.title }}</h1>
+          <div class="title-block_meta">
+            <span class="title-block_meta-item">:date: <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span>
+            <span class="title-block_meta-item">:ledger: {{ page.categories | category_links }}</span>
+          </div>
+          
         </div>
         
         {{ content }}
