@@ -10,8 +10,12 @@ body {
   font-size: 18px;
 }
 h1,h2,h3,h4,h5,h6,
-.post-list-item_title {
+.post-list-item_title,
+.post-list-item_date {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.2;
+}
+h1,h2,h3,h4,h5,h6 {
   color: #888;
 }
 h1 { font-size: 3rem }
@@ -40,4 +44,6 @@ blockquote { font-size: 1.5rem }
 }
 .post-list-item_date {
   opacity: .6;
+  font-size: 1rem;
+  color: orangered;
 }
