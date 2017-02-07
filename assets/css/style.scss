@@ -27,10 +27,6 @@ h6 { font-size: .0875rem }
 
 blockquote { font-size: 1.5rem }
 
-.post-list {
-  padding: 1rem 0 3rem 0;
-}
-
 .post-list-item {
   list-style: none
 }
@@ -38,7 +34,8 @@ blockquote { font-size: 1.5rem }
   font-size: 2.5rem;
 }
 .post-list-item_date,
-.post-list-item_excerpt {
+.post-list-item_excerpt,
+.title-block_title {
   padding: 0;
   margin: 0;
 }
@@ -46,4 +43,8 @@ blockquote { font-size: 1.5rem }
   opacity: .6;
   font-size: 1rem;
   color: orangered;
+}
+
+.title-block {
+  margin-bottom: 1.5rem
 }
