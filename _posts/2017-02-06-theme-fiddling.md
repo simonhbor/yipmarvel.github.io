@@ -9,7 +9,7 @@ In case you are wondering, productive-lazy is a definite thing, that I think I j
 
 Github pages offers a good number of Jekyll themes. It's good it does because it's very easy to install / switch these around on your Jekyll/Github blog, so it is definitely the path of least resistance. As far as I can tell the theme sets a default page HTML structure and some CSS. So I think that they can be completely ignored if you want to write things from scratch. But I couldn't be bothered :smile:.
 
-Still, fiddling about with getting the combo of my includes, `{{content}}`, and layouts working OK together with my added in CSS took me a while. I'm kinda happy with it, but here's what I reserver every right to change:
+Still, fiddling about with getting the combo of my includes, the main content, and layouts working OK together with my added in CSS took me a while. I'm kinda happy with it, but here's what I reserver every right to change:
 
 - the fonts: I like the sans-serif thin heading font and a classic serif body font, but why not endlessly mess around with Google Font combos?
 - colors: I would like to have a toggle for a dark theme. My current text colors work well on dark or light actually, which may make it easier. I am going to have to experiment with what Github Pages will let me get away with though in terms of dynamic stuff
