@@ -2,6 +2,7 @@
 layout: post
 category: coding
 tags: [jekyll, code]
+title: Theme Fiddling
 ---
 
 I've been produtive-lazy tonight and messed about themeing this blog on the laptop. It's like messing about on the river only less connected to nature, less relaxing, less likely to have songs written about it, but safer to do in the dark.
