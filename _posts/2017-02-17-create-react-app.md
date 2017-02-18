@@ -2,7 +2,7 @@
 layout: post
 category: coding
 tags: [react, code]
-title: Create React App: Too Much Black Box
+title: Create React App is Too Much Black Box
 ---
 
 I've got pretty good at setting up a quick "Hello World" React app using node. CDN files for Babel and React, a 5 line server file. Then I concentrate on making stuff. This week I wanted to go further and finally get modules working. So I tried out Create React App. It was very slick. I didn't like it.
